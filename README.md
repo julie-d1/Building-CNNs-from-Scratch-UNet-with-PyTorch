@@ -57,10 +57,8 @@ cnn-unet-project/
 
 ## 📊 Example Outputs
 
-After running the script, add the output images below to the `assets/` folder.
-
 **CNN Loss Plot**
-<img src="cnn_loss_plot.png" width="400">
+- <img src="cnn_loss_plot.png" width="400">
 
 **UNet Prediction Grid**
 
