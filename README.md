@@ -16,9 +16,6 @@ cnn-unet-project/
 ├── main.py             # All code: NumPy CNN + PyTorch UNet
 ├── requirements.txt    # Dependencies to install
 ├── README.md           # Project overview and instructions
-├── assets/             
-│   ├── cnn_loss_plot.png
-│   └── unet_output.png
 ```
 ## 🚀 Getting Started
 
@@ -63,7 +60,7 @@ cnn-unet-project/
 After running the script, add the output images below to the `assets/` folder.
 
 **CNN Loss Plot**
-<img src="assets/cnn_loss_plot.png" width="400">
+<img src="cnn_loss_plot.png" width="400">
 
 **UNet Prediction Grid**
 
