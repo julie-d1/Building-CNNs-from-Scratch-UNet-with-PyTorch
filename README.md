@@ -58,7 +58,8 @@ cnn-unet-project/
 ## 📊 Example Outputs
 
 **CNN Loss Plot**
-- <img src="cnn_loss_plot.png" width="400">
+
+<img src="cnn_loss_plot.png" width="400">
 
 **UNet Prediction Grid**
 
