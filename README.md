@@ -16,7 +16,9 @@ cnn-unet-project/
 ├── main.py             # All code: NumPy CNN + PyTorch UNet
 ├── requirements.txt    # Dependencies to install
 ├── README.md           # Project overview and instructions
-
+├── assets/             # Screenshots, plots, etc.
+│   ├── cnn_loss_plot.png
+│   └── unet_output.png
 ```
 ## 🚀 Getting Started
 
