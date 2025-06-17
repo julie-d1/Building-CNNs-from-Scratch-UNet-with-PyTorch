@@ -15,10 +15,8 @@ It’s designed to show a full spectrum of deep learning skills: from manually c
 cnn-unet-project/
 ├── main.py             # All code: NumPy CNN + PyTorch UNet
 ├── requirements.txt    # Dependencies to install
-├── README.md           # This file
-└── assets/             # (Optional)
-    ├── cnn_loss_plot.png
-    └── unet_output.png
+├── README.md           # Project overview and instructions
+
 ```
 ## 🚀 Getting Started
 
@@ -63,6 +61,7 @@ cnn-unet-project/
 After running the script, add the output images below to the `assets/` folder.
 
 **CNN Loss Plot**
+<img src="assets/cnn_loss_plot.png" width="400">
 
 **UNet Prediction Grid**
 
