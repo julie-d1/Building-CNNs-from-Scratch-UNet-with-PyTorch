@@ -1,4 +1,4 @@
-# 🧠 Deep Learning Pipeline: CNN from Scratch + PyTorch UNet
+# 🧠 Deep Learning: CNN from Scratch + PyTorch UNet
 
 This project demonstrates two deep learning implementations in a single, unified pipeline:
 
