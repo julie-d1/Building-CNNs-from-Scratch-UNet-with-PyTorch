@@ -1,11 +1,24 @@
 # 🧠 Deep Learning: CNN from Scratch + PyTorch UNet
 
-This project demonstrates two deep learning implementations in a single, unified pipeline:
+A two-part deep learning project that demonstrates both foundational knowledge and practical modeling:
 
-1. **CNN from Scratch using NumPy** – A foundational implementation of a convolutional neural network trained on a subset of the MNIST dataset.
+1. **CNN from Scratch using NumPy** – A manual implementation of a convolutional neural network trained on a subset of the MNIST dataset (digits 0, 1, 2).
 2. **UNet with PyTorch** – A semantic segmentation model trained on the Oxford-IIIT Pet Dataset for multi-class image segmentation.
 
-It’s designed to show a full spectrum of deep learning skills: from manually coding operations like convolution and backpropagation, to applying a modern segmentation model with PyTorch.
+> 💡 This project walks through both low-level implementation and high-level deep learning workflows in a single script, showcasing the full modeling pipeline.
+
+---
+
+## ⚙️ Tech Stack
+
+| Component                  | Library / Tool           |
+|----------------------------|---------------------------|
+| CNN Implementation         | NumPy                     |
+| Segmentation Model         | PyTorch (UNet)            |
+| Data Loading               | TensorFlow (MNIST), torchvision (Pets) |
+| Data Visualization         | Matplotlib                |
+| Model Optimization         | Gradient Descent, Adam    |
+| Evaluation                 | Loss plots, prediction grids |
 
 ---
 
@@ -18,19 +31,17 @@ cnn-unet-project/
 ├── README.md           # Project overview and instructions
 ```
 ## 🚀 Getting Started
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/cnn-unet-project.git
+cd cnn-unet-project
 
-1. **Clone the repository**
+#2. Install dependencies
+pip install -r requirements.txt #You’ll need Python 3.8+. PyTorch with GPU support is recommended (but not required for testing).
 
-2. **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    You’ll need Python 3.8+. PyTorch with GPU support is recommended (but not required for testing).
-
-3. **Run the project**
-    ```bash
-    python main.py
-    ```
+#3. Run the project
+python main.py
+```
     This will:
     - Train a custom CNN on digits 0, 1, and 2 from the MNIST dataset using NumPy
     - Plot the training and test loss curves
