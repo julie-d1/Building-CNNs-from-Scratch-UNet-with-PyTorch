@@ -33,7 +33,7 @@ cnn-unet-project/
 ## 🚀 Getting Started
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/cnn-unet-project.git
+git clone https://github.com/<yourusername>/cnn-unet-project.git
 cd cnn-unet-project
 
 #2. Install dependencies
