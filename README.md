@@ -37,17 +37,19 @@ git clone https://github.com/yourusername/cnn-unet-project.git
 cd cnn-unet-project
 
 #2. Install dependencies
-pip install -r requirements.txt #You’ll need Python 3.8+. PyTorch with GPU support is recommended (but not required for testing).
+pip install -r requirements.txt 
+#You’ll need Python 3.8+. PyTorch with GPU support is recommended (but not required for testing).
 
 #3. Run the project
 python main.py
-```
+
     This will:
     - Train a custom CNN on digits 0, 1, and 2 from the MNIST dataset using NumPy
     - Plot the training and test loss curves
     - Train a PyTorch UNet on the Oxford-IIIT Pet Dataset
     - Display a grid of predictions vs ground truth masks
     - Save a trained UNet model checkpoint
+```
 
 ---
 
