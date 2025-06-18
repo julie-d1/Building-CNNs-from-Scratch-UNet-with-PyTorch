@@ -43,12 +43,12 @@ pip install -r requirements.txt
 #3. Run the project
 python main.py
 
-    This will:
-    - Train a custom CNN on digits 0, 1, and 2 from the MNIST dataset using NumPy
-    - Plot the training and test loss curves
-    - Train a PyTorch UNet on the Oxford-IIIT Pet Dataset
-    - Display a grid of predictions vs ground truth masks
-    - Save a trained UNet model checkpoint
+This will:
+ - Train a custom CNN on digits 0, 1, and 2 from the MNIST dataset using NumPy
+ - Plot the training and test loss curves
+ - Train a PyTorch UNet on the Oxford-IIIT Pet Dataset
+ - Display a grid of predictions vs ground truth masks
+ - Save a trained UNet model checkpoint
 ```
 
 ---
