@@ -74,6 +74,7 @@ This will:
 
 **UNet Prediction Grid**
 
+<img src="unet_output.png" width="400">
 ---
 
 ## 🧰 Requirements
